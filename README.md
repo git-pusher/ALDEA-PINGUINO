@@ -1,4 +1,4 @@
-# platzi
+# APP FLUTTER
 
 A new Flutter application.
 
