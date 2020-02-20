@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:platzi/floating_action_button.dart';
 import 'button.dart';
 
 class CardImage extends StatelessWidget {
@@ -39,7 +40,7 @@ class CardImage extends StatelessWidget {
       alignment: Alignment(0.8, 1.1),
       children: <Widget>[
         card,
-        FloatingActionButton(),
+        FloatingActionButtonFav(),
       ],
     );
   }
