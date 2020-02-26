@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:platzi/trips_cupertino.dart';
 import 'home.dart';
 import 'search.dart';
 import 'profile.dart';
@@ -34,7 +35,9 @@ class _Trips extends State<Trips> {
 
 
     return Scaffold(
-      body: widgetsChildren[indexTap],
+      body: TripsCupertino(),
+
+      /*body: widgetsChildren[indexTap],
       //appBar: AppBar(
       //centerTitle: true,
       //title: Text("Reto #2"),
@@ -63,7 +66,7 @@ class _Trips extends State<Trips> {
               ),
              ]
           ),
-        ),
+        ),*/
 
     );
   }
